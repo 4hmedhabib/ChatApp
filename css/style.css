@@ -208,3 +208,14 @@ a {
 a:hover {
     color: #377DFF;
 }
+
+@media only screen and (max-width: 600px) {
+    .container .bottom .send-section #formInput {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container .bottom .send-section input {
+        width: 70%;
+    }
+}
