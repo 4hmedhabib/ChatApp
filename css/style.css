@@ -210,6 +210,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
     .container .bottom .send-section #formInput {
         display: flex;
         flex-direction: row;
